@@ -1,4 +1,4 @@
-.place__website {
+.website {
     max-width: 456px;
     align-self: end;
     grid-area: url;
@@ -6,7 +6,7 @@
 
 
   @media screen and (max-width: 700px) {
-    .place__website {
+    .website {
       flex-basis: 100%;
       margin: 32px 0 32px 16px;
     }
