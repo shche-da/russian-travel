@@ -1,0 +1,28 @@
+.place__image {
+    width: 460px;
+    grid-area: image;
+    object-fit: fill;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .place__image {
+      max-width: 440px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place__image {
+      max-width: 340px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .place__image {
+      margin-top: 32px;
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,14 @@
+.cover__overlay{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    z-index: 1;
+    color: white;
+  }
+ 
+  .cover__overlay:hover {
+    opacity: 0.8;
+   -webkit-transition: opacity .5s linear;
+    transition: opacity .5s linear;
+  }
