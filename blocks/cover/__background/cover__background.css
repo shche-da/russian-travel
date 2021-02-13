@@ -1,3 +1,4 @@
+   
 .cover__background{
   background-image: url('../../../images/sprint-3-images/cover-trains.jpg');
   height: 740px;
@@ -8,6 +9,9 @@
   left: 0;
   z-index: 3;
   opacity: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
       
 /*.cover__background::before {
