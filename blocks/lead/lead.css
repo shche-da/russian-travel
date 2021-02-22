@@ -2,6 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /*max-width: 984px;*/
+  margin: auto;
+  padding: 56px 0 0;
   max-width: 984px;
+  width: 100%;
   margin: 0 auto;
+  width: calc(100% - 2 *148px);
+}
+
+
+@media screen and (max-width: 1050px) {
+  .lead{
+    padding-top: 48px;
+    width: calc(100% - 2 *48px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead{
+    padding: 0;
+    padding-top: 48px;
+    width: 100%;
+   }
 }
