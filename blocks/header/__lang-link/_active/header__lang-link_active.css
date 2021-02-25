@@ -1,6 +1,6 @@
-.header__lang-link_active{
-  margin:0;
-  margin-right: 18px;
-  text-align: right;
-  text-decoration: underline;
+.header__lang-link_active {
+    /*margin:0;
+    margin-right: 18px;
+    text-align: right;*/
+    text-decoration: underline;
 }

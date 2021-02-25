@@ -1,4 +1,4 @@
-.header__lang-link{
+.header__lang-link {
     font-size: 24px;
     line-height: 28px;
     font-weight: normal;
@@ -8,10 +8,22 @@
     margin: 0;
     /*justify-content: end;
     align-items: flex-end;*/
+    margin: 0;
+    margin-right: 18px;
+    text-align: right;
+}
 
+.header__lang-link:last-child {
+    margin-right: 0;
 }
 
 .header__lang-link:hover {
     opacity: 0.8;
-  }
+}
 
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

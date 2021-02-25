@@ -1,49 +1,53 @@
-   
-.cover__background{
-  background-image: url('../../../images/sprint-3-images/cover-trains.jpg');
-  height: 740px;
-  width: 100%;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  opacity: 0.3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.cover__background {
+    background-image: url('../../../images/sprint-3-images/cover-trains.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    object-fit: cover;
 }
-      
-/*.cover__background::before {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: #000;
-  opacity: 0.8;
-  z-index: 1;
+
+.cover__background::before {
+    background-color: #2A2C2F;
+    opacity: .3;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease;
+}
+
+.cover__background:hover::before {
+    opacity: .8;
+}
+
+
+/*@media screen and (max-width: 1024px) {
+    .cover__background {
+        min-height: 640px;
+    }
 }*/
 
 
-@media screen and (max-width: 1024px) {
-  .cover__background {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__background {
-    min-height: 480px;
-  }
+/*@media screen and (max-width: 768px) {
+    .cover__background {
+        min-height: 480px;
+    }
 }
 
 @media screen and (max-width: 425px) {
-  .cover__background {
-    min-height: 300px;
+    .cover__background {
+        min-height: 300px;
+    }
 }
-}
+
 @media screen and (max-width: 325px) {
-  .cover__background {
-    min-height: 200px;
-}
-}
+    .cover__background {
+        min-height: 200px;
+    }
+}*/
