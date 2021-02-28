@@ -1,8 +1,5 @@
 .cover {
-    /*max-width: 1184px;*/
     max-width: 1184px;
-    max-height: 740px;
-    height: calc(60vw);
     margin: 92px auto 0;
 }
 
